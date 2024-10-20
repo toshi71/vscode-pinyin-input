@@ -34,7 +34,7 @@
   - `npm run watch`: 監視モードでビルドを実行します。
 
 ## ライセンス
-この拡張機能は[MITライセンス](LICENSE)の下で提供されています。
+この拡張機能は[MITライセンス](https://opensource.org/licenses/mit-license.php)の下で提供されています。
 
 ## 貢献
 バグレポートや機能リクエストは大歓迎です。GitHubリポジトリにてお気軽にお知らせください。

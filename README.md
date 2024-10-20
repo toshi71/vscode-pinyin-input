@@ -36,7 +36,7 @@
   - `npm run watch`: Runs the build in watch mode.
 
 ## License
-This extension is provided under the [MIT License](LICENSE).
+This extension is provided under the [MIT License](https://opensource.org/licenses/mit-license.php).
 
 ## Contributing
 Bug reports and feature requests are welcome. Feel free to reach out in the GitHub repository.
