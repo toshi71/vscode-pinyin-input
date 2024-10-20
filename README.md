@@ -1,44 +1,46 @@
 # Pinyin Input
 
-## 概要
-「Pinyin Input」は、番号付きピンイン（例: `hao3`）を声調記号付きピンイン（例: `hǎo`）に変換するVisual Studio Codeの拡張機能です。この拡張機能を使うことで、中国語の入力がよりスムーズになります。
+[Japanese version is here](README-ja.md)
 
-## 特徴
-- **簡単な変換**: 数字で表された声調を自動的に声調記号に変換します。
-- **シンプルなトグル機能**: コマンドを使って、拡張機能のオン・オフを簡単に切り替えられます。
-- **プレーンテキストファイルでの使用**: 特にプレーンテキストファイルでの使用に最適化されています。
+## Overview
+"Pinyin Input" is a Visual Studio Code extension that converts numbered pinyin (e.g., `hao3`) into pinyin with tone marks (e.g., `hǎo`). This extension facilitates smoother input for Chinese language learners and users.
 
-## 使用方法
+## Features
+- **Easy Conversion**: Automatically converts tones represented by numbers into tone marks.
+- **Simple Toggle Functionality**: Easily switch the extension on and off using a command.
+- **Optimized for Plain Text Files**: Particularly designed for use in plain text files.
 
-1. **インストール**:
-   - Visual Studio Codeを開き、拡張機能のマーケットプレイスから「Pinyin Input」を検索してインストールします。
+## Usage
 
-2. **拡張機能の有効化**:
-   - コマンドパレットを開く（`Ctrl+Shift+P` または `Cmd+Shift+P`）し、「Toggle Pinyin Input」を選択して拡張機能を有効にします。
+1. **Installation**:
+   - Open Visual Studio Code and search for "Pinyin Input" in the Extensions Marketplace to install it.
 
-3. **ピンインの入力**:
-   - プレーンテキストエディタでピンインを入力します。例えば「hao3」と入力すると、自動的に「hǎo」に変換されます。
-   - 「v」を入力すると「ü」に変換されます。
+2. **Activating the Extension**:
+   - Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and select "Toggle Pinyin Input" to activate the extension.
 
-## コマンド
-- **Toggle Pinyin Input**: 拡張機能をオン・オフに切り替えます。
+3. **Inputting Pinyin**:
+   - In the plain text editor, input pinyin. For example, typing "hao3" will automatically convert it to "hǎo".
+   - Typing "v" will convert it to "ü".
 
-## 依存関係
-- この拡張機能は、以下の依存関係を必要とします:
-  - **Node.js**: v16.x以降
-  - **TypeScript**: v4.4.x以降
+## Commands
+- **Toggle Pinyin Input**: Toggles the extension on and off.
 
-## 開発者向け情報
-- **ビルド**: この拡張機能はTypeScriptで書かれており、以下のスクリプトを使用してビルドできます。
-  - `npm run compile`: ビルドを実行します。
-  - `npm run watch`: 監視モードでビルドを実行します。
+## Dependencies
+- This extension requires the following dependencies:
+  - **Node.js**: v16.x or later
+  - **TypeScript**: v4.4.x or later
 
-## ライセンス
-この拡張機能は[MITライセンス](LICENSE)の下で提供されています。
+## Developer Information
+- **Build**: This extension is written in TypeScript, and you can build it using the following scripts:
+  - `npm run compile`: Executes the build.
+  - `npm run watch`: Runs the build in watch mode.
 
-## 貢献
-バグレポートや機能リクエストは大歓迎です。GitHubリポジトリにてお気軽にお知らせください。
+## License
+This extension is provided under the [MIT License](LICENSE).
+
+## Contributing
+Bug reports and feature requests are welcome. Feel free to reach out in the GitHub repository.
 
 ---
 
-この拡張機能を使って、快適な中国語入力を楽しんでください！
+Enjoy using this extension for a smoother Chinese input experience!
