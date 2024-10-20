@@ -1,0 +1,31 @@
+{
+    "name": "vscode-pinyin-input",
+    "displayName": "Pinyin Input",
+    "description": "Convert numbered pinyin (e.g., 'hao3') to pinyin with tone marks (e.g., 'hǎo')",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "pinyin-input.toggle",
+                "title": "Toggle Pinyin Input"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.7",
+        "@types/vscode": "^1.60.0",
+        "typescript": "^4.4.4"
+    }
+}
